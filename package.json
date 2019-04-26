@@ -1,0 +1,22 @@
+{
+  "name": "beeper",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js -- -t [ brfs ]"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "brfs": "^2.0.2",
+    "budo": "^9.4.7",
+    "bundle-collapser": "^1.2.1",
+    "choo": "^5.1.4",
+    "dat-js": "^8.0.0",
+    "hypercore-crypto": "^1.0.0",
+    "tweetnacl": "^1.0.1",
+    "tweetnacl-util": "^0.15.0",
+    "uglifyify": "^3.0.4",
+    "unassertify": "^2.0.4",
+    "yo-yoify": "^3.7.0"
+  }
+}
